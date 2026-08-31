@@ -1,0 +1,20 @@
+﻿{
+    "project_name":  "TTE Project B Advanced Challenger",
+    "project_b_root":  "H:\\PROJECT B",
+    "project_a_root":  "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting",
+    "source_pack_folder":  "H:\\PROJECT B\\01_Source_Data_Pack\\TTE_Project_B_Advanced_Source_Data_Pack",
+    "source_pack_zip":  "H:\\PROJECT B\\01_Source_Data_Pack\\TTE_Project_B_Advanced_Source_Data_Pack.zip",
+    "processed_data_root":  "H:\\PROJECT B\\02_Processed_Data",
+    "feature_store_root":  "H:\\PROJECT B\\03_Feature_Store",
+    "gradient_boosting_root":  "H:\\PROJECT B\\04_Gradient_Boosting",
+    "deep_learning_root":  "H:\\PROJECT B\\05_Deep_Learning",
+    "spatiotemporal_root":  "H:\\PROJECT B\\06_Spatiotemporal_Model",
+    "ensemble_root":  "H:\\PROJECT B\\07_Ensemble",
+    "reconciliation_root":  "H:\\PROJECT B\\08_Reconciliation",
+    "model_root":  "H:\\PROJECT B\\15_Models",
+    "run_root":  "H:\\PROJECT B\\16_Runs",
+    "log_root":  "H:\\PROJECT B\\17_Logs",
+    "project_a_changed":  false,
+    "operational_use_allowed":  false,
+    "live_assignment_authorized":  false
+}

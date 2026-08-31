@@ -1,0 +1,6 @@
+# Install inside a supported RAPIDS WSL2 environment selected from https://docs.rapids.ai/install/
+# Do not install cuDF into ordinary native-Windows Python.
+pandas>=2.2,<3.0
+pyarrow>=18
+openpyxl>=3.1,<4
+

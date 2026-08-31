@@ -1,0 +1,770 @@
+{
+  "controls": {
+    "four_missing_ttel_crop_target_estates_repaired_by_weather": false,
+    "project_a_accessed": false,
+    "project_b_retrained": false,
+    "rl_allocation_executed": false,
+    "training_authorized": false
+  },
+  "created_at_utc": "2026-08-03T07:33:14.449486+00:00",
+  "interpretation": {
+    "imerg_included": false,
+    "imerg_note": "Current POWER Daily API v2.9.5 rejected the legacy IMERG parameter; PRECTOTCORR is used and must be gauge-validated.",
+    "nasa_weather_is_estate_station_data": false,
+    "nasa_weather_is_future_forecast": false,
+    "operational_safe_lag_days_for_included_products": 8,
+    "same_day_observed_weather_allowed_in_operational_forecast": false
+  },
+  "period": {
+    "actual_estate_day_rows": 71891,
+    "annual_chunks": 6,
+    "days": 1943,
+    "end": "2026-07-26",
+    "expected_estate_day_rows": 71891,
+    "start": "2021-04-01"
+  },
+  "quality": {
+    "duplicate_estate_date_keys": 0,
+    "hard_gate_pass": true,
+    "invalid_values_by_parameter": {},
+    "missing_values_by_parameter": {},
+    "temperature_order_failures": 0
+  },
+  "regional_bounds": {
+    "latitude-max": 7.5,
+    "latitude-min": 5.5,
+    "longitude-max": 81.5,
+    "longitude-min": 79.5
+  },
+  "requests": [
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=PRECTOTCORR&community=AG&start=20210401&end=20211231&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2021-12-31",
+      "chunk_start": "2021-04-01",
+      "grid_features_returned": 15,
+      "longname": "Precipitation Corrected",
+      "parameter": "PRECTOTCORR",
+      "raw_file": "01_raw_nasa_json/PRECTOTCORR_20210401_20211231.json",
+      "raw_sha256": "b6c4e5d781d33bf9b0614bddb9dffeb5ac780d5add4d8025be3228760c0cc64c",
+      "sources": [
+        "MERRA2"
+      ],
+      "time_standard": "LST",
+      "units": "mm/day"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=PRECTOTCORR&community=AG&start=20220101&end=20221231&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2022-12-31",
+      "chunk_start": "2022-01-01",
+      "grid_features_returned": 15,
+      "longname": "Precipitation Corrected",
+      "parameter": "PRECTOTCORR",
+      "raw_file": "01_raw_nasa_json/PRECTOTCORR_20220101_20221231.json",
+      "raw_sha256": "970ec97e8e280e030df96efa172752972d826e2bb592fdbee1ff852746a7524b",
+      "sources": [
+        "MERRA2"
+      ],
+      "time_standard": "LST",
+      "units": "mm/day"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=PRECTOTCORR&community=AG&start=20230101&end=20231231&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2023-12-31",
+      "chunk_start": "2023-01-01",
+      "grid_features_returned": 15,
+      "longname": "Precipitation Corrected",
+      "parameter": "PRECTOTCORR",
+      "raw_file": "01_raw_nasa_json/PRECTOTCORR_20230101_20231231.json",
+      "raw_sha256": "d1daec3f0d86036ccedeac67b484f841c276d6ae0653ec62185a2ce8f1ac6c6e",
+      "sources": [
+        "MERRA2"
+      ],
+      "time_standard": "LST",
+      "units": "mm/day"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=PRECTOTCORR&community=AG&start=20240101&end=20241231&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2024-12-31",
+      "chunk_start": "2024-01-01",
+      "grid_features_returned": 15,
+      "longname": "Precipitation Corrected",
+      "parameter": "PRECTOTCORR",
+      "raw_file": "01_raw_nasa_json/PRECTOTCORR_20240101_20241231.json",
+      "raw_sha256": "38a2c3300259769e13549aa087b22a8e55ce2fe01b4b130baab2179bdbace738",
+      "sources": [
+        "MERRA2"
+      ],
+      "time_standard": "LST",
+      "units": "mm/day"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=PRECTOTCORR&community=AG&start=20250101&end=20251231&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2025-12-31",
+      "chunk_start": "2025-01-01",
+      "grid_features_returned": 15,
+      "longname": "Precipitation Corrected",
+      "parameter": "PRECTOTCORR",
+      "raw_file": "01_raw_nasa_json/PRECTOTCORR_20250101_20251231.json",
+      "raw_sha256": "bf4dc68e63edde7fe22e776ef96a8ad3c7a0a860a34936407bf5ff198fa09930",
+      "sources": [
+        "MERRA2"
+      ],
+      "time_standard": "LST",
+      "units": "mm/day"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=PRECTOTCORR&community=AG&start=20260101&end=20260726&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2026-07-26",
+      "chunk_start": "2026-01-01",
+      "grid_features_returned": 15,
+      "longname": "Precipitation Corrected",
+      "parameter": "PRECTOTCORR",
+      "raw_file": "01_raw_nasa_json/PRECTOTCORR_20260101_20260726.json",
+      "raw_sha256": "8ec322b58b47661603ba967f80af7b47b174068a711e8b2bf4dbd6c4bfb943a3",
+      "sources": [
+        "GEOSIT",
+        "MERRA2"
+      ],
+      "time_standard": "LST",
+      "units": "mm/day"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=T2M&community=AG&start=20210401&end=20211231&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2021-12-31",
+      "chunk_start": "2021-04-01",
+      "grid_features_returned": 15,
+      "longname": "Temperature at 2 Meters",
+      "parameter": "T2M",
+      "raw_file": "01_raw_nasa_json/T2M_20210401_20211231.json",
+      "raw_sha256": "1ca297be077e20eaced6125f95d29c4e28231f77a49dc712f4ff39ed74c5df25",
+      "sources": [
+        "MERRA2"
+      ],
+      "time_standard": "LST",
+      "units": "C"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=T2M&community=AG&start=20220101&end=20221231&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2022-12-31",
+      "chunk_start": "2022-01-01",
+      "grid_features_returned": 15,
+      "longname": "Temperature at 2 Meters",
+      "parameter": "T2M",
+      "raw_file": "01_raw_nasa_json/T2M_20220101_20221231.json",
+      "raw_sha256": "db487d235634345f3489e0722276f44c9ce260880c4d183f3f663a0509b9a1a4",
+      "sources": [
+        "MERRA2"
+      ],
+      "time_standard": "LST",
+      "units": "C"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=T2M&community=AG&start=20230101&end=20231231&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2023-12-31",
+      "chunk_start": "2023-01-01",
+      "grid_features_returned": 15,
+      "longname": "Temperature at 2 Meters",
+      "parameter": "T2M",
+      "raw_file": "01_raw_nasa_json/T2M_20230101_20231231.json",
+      "raw_sha256": "8c6364d9fe839298751e73fb00e54ce4f23f5aa8d36dcbedc758925b1623bdce",
+      "sources": [
+        "MERRA2"
+      ],
+      "time_standard": "LST",
+      "units": "C"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=T2M&community=AG&start=20240101&end=20241231&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2024-12-31",
+      "chunk_start": "2024-01-01",
+      "grid_features_returned": 15,
+      "longname": "Temperature at 2 Meters",
+      "parameter": "T2M",
+      "raw_file": "01_raw_nasa_json/T2M_20240101_20241231.json",
+      "raw_sha256": "c9a2b601b4d291cf53e5050c6987010160837c2a8bcf0414ba9dc530d650a714",
+      "sources": [
+        "MERRA2"
+      ],
+      "time_standard": "LST",
+      "units": "C"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=T2M&community=AG&start=20250101&end=20251231&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2025-12-31",
+      "chunk_start": "2025-01-01",
+      "grid_features_returned": 15,
+      "longname": "Temperature at 2 Meters",
+      "parameter": "T2M",
+      "raw_file": "01_raw_nasa_json/T2M_20250101_20251231.json",
+      "raw_sha256": "5ed7aae42faa8446a06fea770c62193dc5a037c5a2c5452fa78aaed6ba5f6b88",
+      "sources": [
+        "MERRA2"
+      ],
+      "time_standard": "LST",
+      "units": "C"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=T2M&community=AG&start=20260101&end=20260726&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2026-07-26",
+      "chunk_start": "2026-01-01",
+      "grid_features_returned": 15,
+      "longname": "Temperature at 2 Meters",
+      "parameter": "T2M",
+      "raw_file": "01_raw_nasa_json/T2M_20260101_20260726.json",
+      "raw_sha256": "41b408c52b387acea27e1299ea0abcf23a2e731ed1bb70f51d84b8d1c031080a",
+      "sources": [
+        "GEOSIT",
+        "MERRA2"
+      ],
+      "time_standard": "LST",
+      "units": "C"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=T2M_MAX&community=AG&start=20210401&end=20211231&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2021-12-31",
+      "chunk_start": "2021-04-01",
+      "grid_features_returned": 15,
+      "longname": "Temperature at 2 Meters Maximum",
+      "parameter": "T2M_MAX",
+      "raw_file": "01_raw_nasa_json/T2M_MAX_20210401_20211231.json",
+      "raw_sha256": "eccd4012e3a60bc0cf5f50e57d02d6e4f5314baa83cccf535b8faf5cb8671b58",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "time_standard": "LST",
+      "units": "C"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=T2M_MAX&community=AG&start=20220101&end=20221231&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2022-12-31",
+      "chunk_start": "2022-01-01",
+      "grid_features_returned": 15,
+      "longname": "Temperature at 2 Meters Maximum",
+      "parameter": "T2M_MAX",
+      "raw_file": "01_raw_nasa_json/T2M_MAX_20220101_20221231.json",
+      "raw_sha256": "3b5369dc7aba58f402da7a9d2c855d7577c811e65c4882c1ae935da1d0d73042",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "time_standard": "LST",
+      "units": "C"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=T2M_MAX&community=AG&start=20230101&end=20231231&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2023-12-31",
+      "chunk_start": "2023-01-01",
+      "grid_features_returned": 15,
+      "longname": "Temperature at 2 Meters Maximum",
+      "parameter": "T2M_MAX",
+      "raw_file": "01_raw_nasa_json/T2M_MAX_20230101_20231231.json",
+      "raw_sha256": "4d7627f123d6ae46251283fa981f6a5215d9c765fdaede70b6ddbb62637d18c9",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "time_standard": "LST",
+      "units": "C"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=T2M_MAX&community=AG&start=20240101&end=20241231&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2024-12-31",
+      "chunk_start": "2024-01-01",
+      "grid_features_returned": 15,
+      "longname": "Temperature at 2 Meters Maximum",
+      "parameter": "T2M_MAX",
+      "raw_file": "01_raw_nasa_json/T2M_MAX_20240101_20241231.json",
+      "raw_sha256": "a206ec677c0e231076b8991da39dc1ad7cc28b7e98c4c4b3e1a3124eb7166515",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "time_standard": "LST",
+      "units": "C"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=T2M_MAX&community=AG&start=20250101&end=20251231&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2025-12-31",
+      "chunk_start": "2025-01-01",
+      "grid_features_returned": 15,
+      "longname": "Temperature at 2 Meters Maximum",
+      "parameter": "T2M_MAX",
+      "raw_file": "01_raw_nasa_json/T2M_MAX_20250101_20251231.json",
+      "raw_sha256": "9e21fc8fd3fcae42558e20741c0c7030c57f5706fba068ad047d6f51f2e89ae2",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "time_standard": "LST",
+      "units": "C"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=T2M_MAX&community=AG&start=20260101&end=20260726&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2026-07-26",
+      "chunk_start": "2026-01-01",
+      "grid_features_returned": 15,
+      "longname": "Temperature at 2 Meters Maximum",
+      "parameter": "T2M_MAX",
+      "raw_file": "01_raw_nasa_json/T2M_MAX_20260101_20260726.json",
+      "raw_sha256": "2808d87698905551d8ad407b52f9c9b1aed538578c1a11262e28a600e1c0872e",
+      "sources": [
+        "GEOSIT",
+        "MERRA2",
+        "POWER"
+      ],
+      "time_standard": "LST",
+      "units": "C"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=T2M_MIN&community=AG&start=20210401&end=20211231&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2021-12-31",
+      "chunk_start": "2021-04-01",
+      "grid_features_returned": 15,
+      "longname": "Temperature at 2 Meters Minimum",
+      "parameter": "T2M_MIN",
+      "raw_file": "01_raw_nasa_json/T2M_MIN_20210401_20211231.json",
+      "raw_sha256": "306933ee2f589817c89b0b46b8cb9c25f34898359291329ed5df3d9a80bdcb69",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "time_standard": "LST",
+      "units": "C"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=T2M_MIN&community=AG&start=20220101&end=20221231&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2022-12-31",
+      "chunk_start": "2022-01-01",
+      "grid_features_returned": 15,
+      "longname": "Temperature at 2 Meters Minimum",
+      "parameter": "T2M_MIN",
+      "raw_file": "01_raw_nasa_json/T2M_MIN_20220101_20221231.json",
+      "raw_sha256": "af14bebf5f569c36a4000abe8007ddac24df54b4c6a95fe686e5dbb87391a1ce",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "time_standard": "LST",
+      "units": "C"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=T2M_MIN&community=AG&start=20230101&end=20231231&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2023-12-31",
+      "chunk_start": "2023-01-01",
+      "grid_features_returned": 15,
+      "longname": "Temperature at 2 Meters Minimum",
+      "parameter": "T2M_MIN",
+      "raw_file": "01_raw_nasa_json/T2M_MIN_20230101_20231231.json",
+      "raw_sha256": "be4974e4bfdf8d9af5890687eaaf146ebfd365c6b1a650034921d205066ca040",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "time_standard": "LST",
+      "units": "C"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=T2M_MIN&community=AG&start=20240101&end=20241231&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2024-12-31",
+      "chunk_start": "2024-01-01",
+      "grid_features_returned": 15,
+      "longname": "Temperature at 2 Meters Minimum",
+      "parameter": "T2M_MIN",
+      "raw_file": "01_raw_nasa_json/T2M_MIN_20240101_20241231.json",
+      "raw_sha256": "f141d3e473b235cbcdf4ccf612e2d2e29ef4c16d3b0f6eacdc252b149c99ef80",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "time_standard": "LST",
+      "units": "C"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=T2M_MIN&community=AG&start=20250101&end=20251231&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2025-12-31",
+      "chunk_start": "2025-01-01",
+      "grid_features_returned": 15,
+      "longname": "Temperature at 2 Meters Minimum",
+      "parameter": "T2M_MIN",
+      "raw_file": "01_raw_nasa_json/T2M_MIN_20250101_20251231.json",
+      "raw_sha256": "092209aedbcde2c0b44d83dc3a45d16b2fa9c250df3029e79f4717cfd60aae62",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "time_standard": "LST",
+      "units": "C"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=T2M_MIN&community=AG&start=20260101&end=20260726&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2026-07-26",
+      "chunk_start": "2026-01-01",
+      "grid_features_returned": 15,
+      "longname": "Temperature at 2 Meters Minimum",
+      "parameter": "T2M_MIN",
+      "raw_file": "01_raw_nasa_json/T2M_MIN_20260101_20260726.json",
+      "raw_sha256": "fe25e813982425cda177840ed14fee36fefef95b2e54012a10746c5b0d724acd",
+      "sources": [
+        "GEOSIT",
+        "MERRA2",
+        "POWER"
+      ],
+      "time_standard": "LST",
+      "units": "C"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=RH2M&community=AG&start=20210401&end=20211231&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2021-12-31",
+      "chunk_start": "2021-04-01",
+      "grid_features_returned": 15,
+      "longname": "Relative Humidity at 2 Meters",
+      "parameter": "RH2M",
+      "raw_file": "01_raw_nasa_json/RH2M_20210401_20211231.json",
+      "raw_sha256": "c192d93adf7cf8f94d1d460a7a271ed949f720459fd61d4cbf0c1704aa98743e",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "time_standard": "LST",
+      "units": "%"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=RH2M&community=AG&start=20220101&end=20221231&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2022-12-31",
+      "chunk_start": "2022-01-01",
+      "grid_features_returned": 15,
+      "longname": "Relative Humidity at 2 Meters",
+      "parameter": "RH2M",
+      "raw_file": "01_raw_nasa_json/RH2M_20220101_20221231.json",
+      "raw_sha256": "f1aacd801d7edd2558f5c33f4257ffc4a42bf847b73e93237b071355ae1ef4f2",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "time_standard": "LST",
+      "units": "%"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=RH2M&community=AG&start=20230101&end=20231231&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2023-12-31",
+      "chunk_start": "2023-01-01",
+      "grid_features_returned": 15,
+      "longname": "Relative Humidity at 2 Meters",
+      "parameter": "RH2M",
+      "raw_file": "01_raw_nasa_json/RH2M_20230101_20231231.json",
+      "raw_sha256": "08b99910b9ebb7c698383a403d06ab56bcbca6a682cab815d5a677f945c6489e",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "time_standard": "LST",
+      "units": "%"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=RH2M&community=AG&start=20240101&end=20241231&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2024-12-31",
+      "chunk_start": "2024-01-01",
+      "grid_features_returned": 15,
+      "longname": "Relative Humidity at 2 Meters",
+      "parameter": "RH2M",
+      "raw_file": "01_raw_nasa_json/RH2M_20240101_20241231.json",
+      "raw_sha256": "b611d5fa7da6b83d42595561eb00c833a7a60d2d6b96c17e9eb12c393a7683e9",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "time_standard": "LST",
+      "units": "%"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=RH2M&community=AG&start=20250101&end=20251231&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2025-12-31",
+      "chunk_start": "2025-01-01",
+      "grid_features_returned": 15,
+      "longname": "Relative Humidity at 2 Meters",
+      "parameter": "RH2M",
+      "raw_file": "01_raw_nasa_json/RH2M_20250101_20251231.json",
+      "raw_sha256": "c9f9ed195c0d060ad3a7d6226d9e22e3bceaad51b0cb634b9d0ea7952f5d63b8",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "time_standard": "LST",
+      "units": "%"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=RH2M&community=AG&start=20260101&end=20260726&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2026-07-26",
+      "chunk_start": "2026-01-01",
+      "grid_features_returned": 15,
+      "longname": "Relative Humidity at 2 Meters",
+      "parameter": "RH2M",
+      "raw_file": "01_raw_nasa_json/RH2M_20260101_20260726.json",
+      "raw_sha256": "1c318b8fbe3977d45d847e18d3d41a969de3fc62dc55b4f3e9aa965ae0d3a04c",
+      "sources": [
+        "MERRA2",
+        "GEOSIT",
+        "POWER"
+      ],
+      "time_standard": "LST",
+      "units": "%"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=WS2M&community=AG&start=20210401&end=20211231&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2021-12-31",
+      "chunk_start": "2021-04-01",
+      "grid_features_returned": 15,
+      "longname": "Wind Speed at 2 Meters",
+      "parameter": "WS2M",
+      "raw_file": "01_raw_nasa_json/WS2M_20210401_20211231.json",
+      "raw_sha256": "703c06680849b75ceaf8285df6e5fc77d7dc834e994d48e8ba0bfb881dd59061",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "time_standard": "LST",
+      "units": "m/s"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=WS2M&community=AG&start=20220101&end=20221231&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2022-12-31",
+      "chunk_start": "2022-01-01",
+      "grid_features_returned": 15,
+      "longname": "Wind Speed at 2 Meters",
+      "parameter": "WS2M",
+      "raw_file": "01_raw_nasa_json/WS2M_20220101_20221231.json",
+      "raw_sha256": "f7e05e97c9c620a32f6315fe6008d50c717ceee1fdb63d8a4782260bbde581a2",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "time_standard": "LST",
+      "units": "m/s"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=WS2M&community=AG&start=20230101&end=20231231&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2023-12-31",
+      "chunk_start": "2023-01-01",
+      "grid_features_returned": 15,
+      "longname": "Wind Speed at 2 Meters",
+      "parameter": "WS2M",
+      "raw_file": "01_raw_nasa_json/WS2M_20230101_20231231.json",
+      "raw_sha256": "788bbdd80bc3cc9e53c0fb64c95edb028141cfd587a04b4ac65f27f1197df3a8",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "time_standard": "LST",
+      "units": "m/s"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=WS2M&community=AG&start=20240101&end=20241231&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2024-12-31",
+      "chunk_start": "2024-01-01",
+      "grid_features_returned": 15,
+      "longname": "Wind Speed at 2 Meters",
+      "parameter": "WS2M",
+      "raw_file": "01_raw_nasa_json/WS2M_20240101_20241231.json",
+      "raw_sha256": "2c1d606189a5405e8ce0bb04a11803b09dd1eb7b7fb91bfbbc856d57346f22d5",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "time_standard": "LST",
+      "units": "m/s"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=WS2M&community=AG&start=20250101&end=20251231&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2025-12-31",
+      "chunk_start": "2025-01-01",
+      "grid_features_returned": 15,
+      "longname": "Wind Speed at 2 Meters",
+      "parameter": "WS2M",
+      "raw_file": "01_raw_nasa_json/WS2M_20250101_20251231.json",
+      "raw_sha256": "0ecc98fe611c06b31a284e45935313f0331245079fc024b9e47c84b774148749",
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "time_standard": "LST",
+      "units": "m/s"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=WS2M&community=AG&start=20260101&end=20260726&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2026-07-26",
+      "chunk_start": "2026-01-01",
+      "grid_features_returned": 15,
+      "longname": "Wind Speed at 2 Meters",
+      "parameter": "WS2M",
+      "raw_file": "01_raw_nasa_json/WS2M_20260101_20260726.json",
+      "raw_sha256": "903ebf7b3d779dba6f949116bc82009cb4dc7f07746d8c5ad2a5d29bac9006a2",
+      "sources": [
+        "MERRA2",
+        "GEOSIT",
+        "POWER"
+      ],
+      "time_standard": "LST",
+      "units": "m/s"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=ALLSKY_SFC_SW_DWN&community=AG&start=20210401&end=20211231&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2021-12-31",
+      "chunk_start": "2021-04-01",
+      "grid_features_returned": 9,
+      "longname": "All Sky Surface Shortwave Downward Irradiance",
+      "parameter": "ALLSKY_SFC_SW_DWN",
+      "raw_file": "01_raw_nasa_json/ALLSKY_SFC_SW_DWN_20210401_20211231.json",
+      "raw_sha256": "fa339c513a351ff15e967114589fa361f279f072b90fb24d41de3deea6e98158",
+      "sources": [
+        "SYN1DEG"
+      ],
+      "time_standard": "LST",
+      "units": "MJ/m^2/day"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=ALLSKY_SFC_SW_DWN&community=AG&start=20220101&end=20221231&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2022-12-31",
+      "chunk_start": "2022-01-01",
+      "grid_features_returned": 9,
+      "longname": "All Sky Surface Shortwave Downward Irradiance",
+      "parameter": "ALLSKY_SFC_SW_DWN",
+      "raw_file": "01_raw_nasa_json/ALLSKY_SFC_SW_DWN_20220101_20221231.json",
+      "raw_sha256": "8090154692b5ed14949a86e433986ac018cf99ce0a0c158c651ec936ce029e4a",
+      "sources": [
+        "SYN1DEG"
+      ],
+      "time_standard": "LST",
+      "units": "MJ/m^2/day"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=ALLSKY_SFC_SW_DWN&community=AG&start=20230101&end=20231231&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2023-12-31",
+      "chunk_start": "2023-01-01",
+      "grid_features_returned": 9,
+      "longname": "All Sky Surface Shortwave Downward Irradiance",
+      "parameter": "ALLSKY_SFC_SW_DWN",
+      "raw_file": "01_raw_nasa_json/ALLSKY_SFC_SW_DWN_20230101_20231231.json",
+      "raw_sha256": "704de182867fee6db7516ab584bc52b9dfb6fe18d822b7060c1142e760fdf6b7",
+      "sources": [
+        "SYN1DEG"
+      ],
+      "time_standard": "LST",
+      "units": "MJ/m^2/day"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=ALLSKY_SFC_SW_DWN&community=AG&start=20240101&end=20241231&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2024-12-31",
+      "chunk_start": "2024-01-01",
+      "grid_features_returned": 9,
+      "longname": "All Sky Surface Shortwave Downward Irradiance",
+      "parameter": "ALLSKY_SFC_SW_DWN",
+      "raw_file": "01_raw_nasa_json/ALLSKY_SFC_SW_DWN_20240101_20241231.json",
+      "raw_sha256": "5c307c60868353a91004b9ffdbbc9d4fc433dd7f3ebac79c8a697d11c87c2b70",
+      "sources": [
+        "SYN1DEG"
+      ],
+      "time_standard": "LST",
+      "units": "MJ/m^2/day"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=ALLSKY_SFC_SW_DWN&community=AG&start=20250101&end=20251231&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2025-12-31",
+      "chunk_start": "2025-01-01",
+      "grid_features_returned": 9,
+      "longname": "All Sky Surface Shortwave Downward Irradiance",
+      "parameter": "ALLSKY_SFC_SW_DWN",
+      "raw_file": "01_raw_nasa_json/ALLSKY_SFC_SW_DWN_20250101_20251231.json",
+      "raw_sha256": "560b076bf78b51be111d2d0ddbb806073bb5c14e4d33b37769e784951f26d934",
+      "sources": [
+        "SYN1DEG"
+      ],
+      "time_standard": "LST",
+      "units": "MJ/m^2/day"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=ALLSKY_SFC_SW_DWN&community=AG&start=20260101&end=20260726&time-standard=LST&units=metric&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2026-07-26",
+      "chunk_start": "2026-01-01",
+      "grid_features_returned": 9,
+      "longname": "All Sky Surface Shortwave Downward Irradiance",
+      "parameter": "ALLSKY_SFC_SW_DWN",
+      "raw_file": "01_raw_nasa_json/ALLSKY_SFC_SW_DWN_20260101_20260726.json",
+      "raw_sha256": "0827b43c8e88ed7c9a261c6c1db574b38ca3fc89bc9dd0a12cecb97ba829ac7b",
+      "sources": [
+        "FLASHFLUX",
+        "SYN1DEG"
+      ],
+      "time_standard": "LST",
+      "units": "MJ/m^2/day"
+    }
+  ],
+  "scope": {
+    "coordinate_confidence": {
+      "High": 30,
+      "Low": 1,
+      "Medium": 6
+    },
+    "coordinate_status": "PROVISIONAL",
+    "display_company_counts": {
+      "HPL": 8,
+      "KVPL": 13,
+      "TTEL": 16
+    },
+    "estate_count": 37,
+    "system_company_counts": {
+      "HRPL": 8,
+      "KVPL": 13,
+      "TTEL": 16
+    }
+  },
+  "sources": {
+    "api_openapi": "https://power.larc.nasa.gov/api/temporal/daily/openapi.json",
+    "daily_api": "https://power.larc.nasa.gov/docs/services/api/temporal/daily/",
+    "data_sources": "https://power.larc.nasa.gov/docs/methodology/data/sources/"
+  },
+  "status": "PROVISIONAL_WEATHER_ACQUISITION_COMPLETED_NOT_APPROVED_FOR_TRAINING",
+  "version": "1.0.0"
+}

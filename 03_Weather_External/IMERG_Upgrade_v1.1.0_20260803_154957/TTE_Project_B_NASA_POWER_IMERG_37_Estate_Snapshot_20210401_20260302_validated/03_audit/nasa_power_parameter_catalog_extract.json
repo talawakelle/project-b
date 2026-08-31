@@ -1,0 +1,28 @@
+{
+  "catalog_url": "https://power.larc.nasa.gov/api/system/manager/parameters?community=AG&temporal=DAILY",
+  "retrieved_at_utc": "2026-08-03T09:26:56.255821+00:00",
+  "selected_parameters": {
+    "IMERG_PRECTOT": {
+      "calculated": false,
+      "community": "AG",
+      "definition": "The average IMERG total precipitation at the surface of the earth.",
+      "inputs": null,
+      "name": "Total Precipitation",
+      "source": "SOURCE",
+      "temporal": "DAILY",
+      "type": "METEOROLOGY",
+      "units": "mm/day"
+    },
+    "IMERG_PRECTOT_COUNT": {
+      "calculated": false,
+      "community": "AG",
+      "definition": "The count of half-hourly precipitation retrievals where precipitation is at least 0.01 mm.",
+      "inputs": null,
+      "name": "Count of Precipitation Retrievals",
+      "source": "SOURCE",
+      "temporal": "DAILY",
+      "type": "METEOROLOGY",
+      "units": "count"
+    }
+  }
+}

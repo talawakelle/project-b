@@ -1,0 +1,285 @@
+{
+  "availability_probe": {
+    "api_url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=IMERG_PRECTOT%2CIMERG_PRECTOT_COUNT&community=AG&longitude=80.75&latitude=6.95&start=20210401&end=20260302&time-standard=UTC&format=JSON",
+    "latest_common_non_fill_date": "2026-03-02",
+    "raw_file": "01_raw_nasa_json/IMERG_AVAILABILITY_PROBE_20210401_20260302.json",
+    "raw_sha256": "bf90cfc39c91879ebd295af95cdc3303aefbb87513c46fe6c8deef09cafe602f",
+    "requested_end": "2026-03-02"
+  },
+  "controls": {
+    "project_a_accessed": false,
+    "project_b_retrained": false,
+    "rl_allocation_executed": false,
+    "training_authorized": false
+  },
+  "created_at_utc": "2026-08-03T09:27:58.639706+00:00",
+  "interpretation": {
+    "imerg_is_estate_gauge_data": false,
+    "imerg_is_future_forecast": false,
+    "operational_safe_lag_days": 2,
+    "prectotcorr_replaced_or_deleted": false,
+    "same_day_observed_weather_allowed_in_operational_forecast": false,
+    "temperature_bias_repaired_by_imerg": false
+  },
+  "period": {
+    "actual_estate_day_rows": 66489,
+    "annual_chunks": 6,
+    "days": 1797,
+    "end": "2026-03-02",
+    "end_was_truncated_to_availability": false,
+    "expected_estate_day_rows": 66489,
+    "latest_available_date_from_probe": "2026-03-02",
+    "requested_end": "2026-03-02",
+    "start": "2021-04-01"
+  },
+  "product": {
+    "distinct_grid_cells_used_by_estates": 8,
+    "final_run_age_cutoff": "2026-04-18",
+    "final_run_age_flag_days": 107,
+    "maximum_estate_to_grid_distance_km": 6.419,
+    "native_spatial_resolution_degrees": 0.1,
+    "parameters": [
+      "IMERG_PRECTOT",
+      "IMERG_PRECTOT_COUNT"
+    ],
+    "recent_data_warning": "Recent dates may mix IMERG Late and Final Run data.",
+    "source": "NASA POWER / GPM IMERG",
+    "time_standard": "UTC"
+  },
+  "quality": {
+    "duplicate_estate_date_keys": 0,
+    "hard_gate_pass": true,
+    "invalid_values_by_parameter": {},
+    "missing_values_by_parameter": {},
+    "non_integer_count_values": 0,
+    "rain_values_above_500_mm": 0
+  },
+  "regional_bounds": {
+    "latitude-max": 7.5,
+    "latitude-min": 5.5,
+    "longitude-max": 81.5,
+    "longitude-min": 79.5
+  },
+  "requests": [
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=IMERG_PRECTOT&community=AG&start=20210401&end=20211231&time-standard=UTC&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2021-12-31",
+      "chunk_start": "2021-04-01",
+      "grid_features_returned": 400,
+      "longname": "Total Precipitation",
+      "parameter": "IMERG_PRECTOT",
+      "raw_file": "01_raw_nasa_json/IMERG_PRECTOT_20210401_20211231.json",
+      "raw_sha256": "951580e56c33ab98f0e278c183ffe306eec03481b7463d7349b833cc90415d8b",
+      "sources": [
+        "IMERG"
+      ],
+      "time_standard": "UTC",
+      "units": "mm/day"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=IMERG_PRECTOT&community=AG&start=20220101&end=20221231&time-standard=UTC&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2022-12-31",
+      "chunk_start": "2022-01-01",
+      "grid_features_returned": 400,
+      "longname": "Total Precipitation",
+      "parameter": "IMERG_PRECTOT",
+      "raw_file": "01_raw_nasa_json/IMERG_PRECTOT_20220101_20221231.json",
+      "raw_sha256": "90500cf7950f1ec32fd48f89c0305bcc858cbf398f57894b8db55678631d90e5",
+      "sources": [
+        "IMERG"
+      ],
+      "time_standard": "UTC",
+      "units": "mm/day"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=IMERG_PRECTOT&community=AG&start=20230101&end=20231231&time-standard=UTC&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2023-12-31",
+      "chunk_start": "2023-01-01",
+      "grid_features_returned": 400,
+      "longname": "Total Precipitation",
+      "parameter": "IMERG_PRECTOT",
+      "raw_file": "01_raw_nasa_json/IMERG_PRECTOT_20230101_20231231.json",
+      "raw_sha256": "a788bf1783ce168758008b9aa24adadbdfbd9dd005be52502faf6037fd04cbc4",
+      "sources": [
+        "IMERG"
+      ],
+      "time_standard": "UTC",
+      "units": "mm/day"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=IMERG_PRECTOT&community=AG&start=20240101&end=20241231&time-standard=UTC&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2024-12-31",
+      "chunk_start": "2024-01-01",
+      "grid_features_returned": 400,
+      "longname": "Total Precipitation",
+      "parameter": "IMERG_PRECTOT",
+      "raw_file": "01_raw_nasa_json/IMERG_PRECTOT_20240101_20241231.json",
+      "raw_sha256": "3abb470a9dd2613b1e15f7656938614fac424774a1bdddc3ba67c2734d1e3369",
+      "sources": [
+        "IMERG"
+      ],
+      "time_standard": "UTC",
+      "units": "mm/day"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=IMERG_PRECTOT&community=AG&start=20250101&end=20251231&time-standard=UTC&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2025-12-31",
+      "chunk_start": "2025-01-01",
+      "grid_features_returned": 400,
+      "longname": "Total Precipitation",
+      "parameter": "IMERG_PRECTOT",
+      "raw_file": "01_raw_nasa_json/IMERG_PRECTOT_20250101_20251231.json",
+      "raw_sha256": "0e002cc40f2af902f9ece0b4c80932d251ded4ef52e2bcffe19cb56ce05a859c",
+      "sources": [
+        "IMERG"
+      ],
+      "time_standard": "UTC",
+      "units": "mm/day"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=IMERG_PRECTOT&community=AG&start=20260101&end=20260302&time-standard=UTC&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2026-03-02",
+      "chunk_start": "2026-01-01",
+      "grid_features_returned": 400,
+      "longname": "Total Precipitation",
+      "parameter": "IMERG_PRECTOT",
+      "raw_file": "01_raw_nasa_json/IMERG_PRECTOT_20260101_20260302.json",
+      "raw_sha256": "0e1d5afd811a7a7ae443aa1a1827dfe9e87e2565073fd1475298c2d0478d05bb",
+      "sources": [
+        "IMERG"
+      ],
+      "time_standard": "UTC",
+      "units": "mm/day"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=IMERG_PRECTOT_COUNT&community=AG&start=20210401&end=20211231&time-standard=UTC&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2021-12-31",
+      "chunk_start": "2021-04-01",
+      "grid_features_returned": 400,
+      "longname": "Count of Precipitation Retrievals",
+      "parameter": "IMERG_PRECTOT_COUNT",
+      "raw_file": "01_raw_nasa_json/IMERG_PRECTOT_COUNT_20210401_20211231.json",
+      "raw_sha256": "17a69c91a5a9059a6d66dcb0d65b994f3d95f749992b896e8492370f02ff3f88",
+      "sources": [
+        "IMERG"
+      ],
+      "time_standard": "UTC",
+      "units": "count"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=IMERG_PRECTOT_COUNT&community=AG&start=20220101&end=20221231&time-standard=UTC&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2022-12-31",
+      "chunk_start": "2022-01-01",
+      "grid_features_returned": 400,
+      "longname": "Count of Precipitation Retrievals",
+      "parameter": "IMERG_PRECTOT_COUNT",
+      "raw_file": "01_raw_nasa_json/IMERG_PRECTOT_COUNT_20220101_20221231.json",
+      "raw_sha256": "7453e47c36941f0ceed888c6ec1caaffd049b3c9df1b83536fd923953db7e142",
+      "sources": [
+        "IMERG"
+      ],
+      "time_standard": "UTC",
+      "units": "count"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=IMERG_PRECTOT_COUNT&community=AG&start=20230101&end=20231231&time-standard=UTC&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2023-12-31",
+      "chunk_start": "2023-01-01",
+      "grid_features_returned": 400,
+      "longname": "Count of Precipitation Retrievals",
+      "parameter": "IMERG_PRECTOT_COUNT",
+      "raw_file": "01_raw_nasa_json/IMERG_PRECTOT_COUNT_20230101_20231231.json",
+      "raw_sha256": "b2f4e0a0bcba616a68bf86058021027fed233c848ef0bf825eb074d09d0b6cc9",
+      "sources": [
+        "IMERG"
+      ],
+      "time_standard": "UTC",
+      "units": "count"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=IMERG_PRECTOT_COUNT&community=AG&start=20240101&end=20241231&time-standard=UTC&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2024-12-31",
+      "chunk_start": "2024-01-01",
+      "grid_features_returned": 400,
+      "longname": "Count of Precipitation Retrievals",
+      "parameter": "IMERG_PRECTOT_COUNT",
+      "raw_file": "01_raw_nasa_json/IMERG_PRECTOT_COUNT_20240101_20241231.json",
+      "raw_sha256": "0bbf0682f589bb24ef0045d06077b6b704a36b29be8b395cbb3f6c41a9a721f9",
+      "sources": [
+        "IMERG"
+      ],
+      "time_standard": "UTC",
+      "units": "count"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=IMERG_PRECTOT_COUNT&community=AG&start=20250101&end=20251231&time-standard=UTC&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2025-12-31",
+      "chunk_start": "2025-01-01",
+      "grid_features_returned": 400,
+      "longname": "Count of Precipitation Retrievals",
+      "parameter": "IMERG_PRECTOT_COUNT",
+      "raw_file": "01_raw_nasa_json/IMERG_PRECTOT_COUNT_20250101_20251231.json",
+      "raw_sha256": "c8012477945f6e92d3e27db01889faec81a97d1960efb96a6a3d612e77ddfc89",
+      "sources": [
+        "IMERG"
+      ],
+      "time_standard": "UTC",
+      "units": "count"
+    },
+    {
+      "api_url": "https://power.larc.nasa.gov/api/temporal/daily/regional?latitude-min=5.5&latitude-max=7.5&longitude-min=79.5&longitude-max=81.5&parameters=IMERG_PRECTOT_COUNT&community=AG&start=20260101&end=20260302&time-standard=UTC&format=JSON",
+      "api_version": "v2.9.5",
+      "chunk_end": "2026-03-02",
+      "chunk_start": "2026-01-01",
+      "grid_features_returned": 400,
+      "longname": "Count of Precipitation Retrievals",
+      "parameter": "IMERG_PRECTOT_COUNT",
+      "raw_file": "01_raw_nasa_json/IMERG_PRECTOT_COUNT_20260101_20260302.json",
+      "raw_sha256": "b3cfbad498e3a5c3f6411f667b707b0f069039db79835ad2e08d3ecd8901e0d4",
+      "sources": [
+        "IMERG"
+      ],
+      "time_standard": "UTC",
+      "units": "count"
+    }
+  ],
+  "scope": {
+    "coordinate_confidence": {
+      "High": 30,
+      "Low": 1,
+      "Medium": 6
+    },
+    "coordinate_status": "PROVISIONAL",
+    "display_company_counts": {
+      "HPL": 8,
+      "KVPL": 13,
+      "TTEL": 16
+    },
+    "estate_count": 37,
+    "system_company_counts": {
+      "HRPL": 8,
+      "KVPL": 13,
+      "TTEL": 16
+    }
+  },
+  "sources": {
+    "daily_api": "https://power.larc.nasa.gov/docs/services/api/temporal/daily/",
+    "data_sources": "https://power.larc.nasa.gov/docs/methodology/data/sources/",
+    "parameter_catalog_api": "https://power.larc.nasa.gov/api/system/manager/parameters?community=AG&temporal=DAILY",
+    "parameter_dictionary": "https://power.larc.nasa.gov/docs/tutorials/parameters/",
+    "release_guide": "https://power.larc.nasa.gov/docs/release-guide/"
+  },
+  "status": "PROVISIONAL_IMERG_ACQUISITION_COMPLETED_NOT_APPROVED_FOR_TRAINING",
+  "version": "1.1.0"
+}

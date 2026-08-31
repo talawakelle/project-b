@@ -1,0 +1,14 @@
+TTE PROJECT B NASA POWER 37-ESTATE ACQUISITION COMPLETED
+Decision: PROVISIONAL_WEATHER_ACQUISITION_COMPLETED_NOT_APPROVED_FOR_TRAINING
+Period: 2021-04-01 to 2026-07-26
+Estates: 37 (TTEL=16, KVPL=13, HPL display / HRPL system=8)
+Estate-day rows: 71,891 / 71,891
+Duplicate estate-date keys: 0
+Temperature order failures: 0
+Rainfall product: PRECTOTCORR (MERRA-2/GEOS-IT corrected precipitation), not IMERG
+Coordinates: PROVISIONAL; NASA values are gridded, not estate weather-station observations
+Project A accessed: NO
+Project B retrained: NO
+RL allocation executed: NO
+Training authorized: NO
+Output: /workspace/scratch/f9e99df4556a/outputs/f9e99df4556a/TTE_Project_B_NASA_POWER_37_Estate_Snapshot_20210401_20260726_validated

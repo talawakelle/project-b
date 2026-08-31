@@ -1,0 +1,36 @@
+TTE PROJECT B — NASA POWER IMERG 37-ESTATE UPGRADE v1.1.0
+
+WHAT IS INCLUDED
+1. A validated IMERG snapshot for 1 April 2021 through NASA's latest real
+   available date, 2 March 2026.
+2. A reusable Windows acquisition runner for future updates.
+3. A provisional IMERG-versus-Pedro/TRI comparison runner.
+
+INSTALL
+Extract the complete ZIP directly into:
+
+H:\PROJECT B\03_Weather_External
+
+This should create these two folders directly under 03_Weather_External:
+
+TTE_Project_B_NASA_POWER_IMERG_37_Estate_Acquisition_v1.1.0
+TTE_Project_B_NASA_POWER_IMERG_37_Estate_Snapshot_20210401_20260302_validated
+
+NEXT SAFE COMMAND
+Open PowerShell in the acquisition folder and run:
+
+Set-ExecutionPolicy -Scope Process Bypass -Force
+.\RUN_SELF_TEST.ps1
+.\RUN_PROJECT_B_IMERG_STATION_COMPARISON.ps1 -IMERGRoot "H:\PROJECT B\03_Weather_External\TTE_Project_B_NASA_POWER_IMERG_37_Estate_Snapshot_20210401_20260302_validated"
+
+FUTURE UPDATE
+To download up to NASA's latest common non-fill IMERG date:
+
+.\RUN_PROJECT_B_NASA_POWER_IMERG_37_ESTATE_ACQUISITION.ps1
+
+IMPORTANT DECISION
+Acquisition and comparison are diagnostic only. Project B retraining remains
+unauthorized. Project A is unchanged. RL allocation remains disabled.
+
+NASA POWER accepted a request ending 26 July 2026 but returned -999 fill values
+after 2 March 2026. Those 146 unavailable days were excluded, not imputed.

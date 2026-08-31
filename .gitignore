@@ -1,0 +1,70 @@
+﻿.env
+.env.*
+!.env.example
+
+venv/
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+
+# Project B operational/source data
+00_Official_Exports/
+00_Quarantine/
+01_Source_Data_Pack/
+02_Processed_Data/
+14_Monthly_Excel/
+15_Models/
+16_Runs/
+17_Logs/
+
+# Trained models / artifacts
+04_Models/
+models/
+outputs/
+runs/
+logs/
+checkpoints/
+artifacts/
+
+# Data
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.db
+*.duckdb
+*.sqlite
+*.sqlite3
+
+# Model binaries
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.h5
+*.hdf5
+
+# Archives / binaries
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+*.exe
+*.dll
+
+# Generated / backup
+dist/
+build/
+cache/
+.cache/
+*.log
+*.bak
+*.bak.*
+*.bak_*
+*.before_*
+*_before_*
+*.save
+nohup.out

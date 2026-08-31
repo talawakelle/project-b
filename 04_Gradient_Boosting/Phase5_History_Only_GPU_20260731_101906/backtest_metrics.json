@@ -1,0 +1,74 @@
+{
+  "overall": {
+    "rows": 250277,
+    "actual_total_kg": 1030849515.0,
+    "p50_mae_kg": 1148.6982593047646,
+    "p50_wape_pct": 27.888915895160366,
+    "p50_bias_pct": -3.587533618911461,
+    "p50_pinball_loss": 574.3491296523823,
+    "p90_pinball_loss": 325.108232172259,
+    "p90_empirical_coverage_pct": 72.63272294297917,
+    "p90_above_p50_pct": 100.0,
+    "naive_mae_kg": 1768.2614414025159,
+    "naive_wape_pct": 42.93111286664353
+  },
+  "horizon_bands": {
+    "days_01_07": {
+      "rows": 19621,
+      "actual_total_kg": 80516507.0,
+      "p50_mae_kg": 1088.227042145931,
+      "p50_wape_pct": 26.51891343714813,
+      "p50_bias_pct": -1.3700787783049917,
+      "p50_pinball_loss": 544.1135210729655,
+      "p90_pinball_loss": 309.4615504645553,
+      "p90_empirical_coverage_pct": 74.15014525253555,
+      "p90_above_p50_pct": 100.0,
+      "naive_mae_kg": 1555.011878515844,
+      "naive_wape_pct": 37.89395392966982
+    },
+    "days_08_30": {
+      "rows": 63989,
+      "actual_total_kg": 262763160.0,
+      "p50_mae_kg": 1126.6398720629718,
+      "p50_wape_pct": 27.43632660432212,
+      "p50_bias_pct": -3.013910542874903,
+      "p50_pinball_loss": 563.3199360314859,
+      "p90_pinball_loss": 317.5564918613331,
+      "p90_empirical_coverage_pct": 73.42980824829267,
+      "p90_above_p50_pct": 100.0,
+      "naive_mae_kg": 1758.6882547130751,
+      "naive_wape_pct": 42.82818897855961
+    },
+    "days_31_60": {
+      "rows": 83431,
+      "actual_total_kg": 344539137.0,
+      "p50_mae_kg": 1169.8439635334303,
+      "p50_wape_pct": 28.328059497507134,
+      "p50_bias_pct": -3.7817644491033473,
+      "p50_pinball_loss": 584.9219817667151,
+      "p90_pinball_loss": 329.7055790763615,
+      "p90_empirical_coverage_pct": 72.40474164279465,
+      "p90_above_p50_pct": 100.0,
+      "naive_mae_kg": 1875.7376808023575,
+      "naive_wape_pct": 45.42144959486024
+    },
+    "days_61_90": {
+      "rows": 83236,
+      "actual_total_kg": 343030711.0,
+      "p50_mae_kg": 1158.7154711312187,
+      "p50_wape_pct": 28.116095108195175,
+      "p50_bias_pct": -4.352329887228833,
+      "p50_pinball_loss": 579.3577355656093,
+      "p90_pinball_loss": 329.99398596853115,
+      "p90_empirical_coverage_pct": 71.89076841751165,
+      "p90_above_p50_pct": 100.0,
+      "naive_mae_kg": 1718.161703153463,
+      "naive_wape_pct": 41.69099236239569
+    }
+  },
+  "model_scope": "HISTORY_ONLY_QUANTILE_GRADIENT_BOOSTING_BASELINE",
+  "test_target_start": "2026-03-22",
+  "test_target_end": "2026-06-19",
+  "best_iteration_p50": 248,
+  "best_iteration_p90": 94
+}

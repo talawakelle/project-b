@@ -1,0 +1,80 @@
+{
+  "status": "TTE_PROJECT_B_DOWNLOADED_PROMPT_BACKTEST_COMPLETED",
+  "version": "1.0.2",
+  "started_at_utc": "2026-08-03T05:23:41.995259+00:00",
+  "completed_at_utc": "2026-08-03T05:24:11.401660+00:00",
+  "engine": "RAPIDS_CUDF_GPU_AGGREGATION_WITH_PANDAS_EXCEL_IO",
+  "purpose": "Preliminary independent post-training scoring using downloaded PROMPT actuals after 2026-06-19.",
+  "prompt_actuals": {
+    "files": 16,
+    "raw_weighment_rows": 121541,
+    "estate_day_rows": 339,
+    "estates": 16,
+    "minimum_date": "2026-07-01",
+    "maximum_date": "2026-07-22",
+    "total_actual_green_leaf_kg": 982360.0,
+    "missing_estate_days_filled_with_zero": false,
+    "merged_into_training_data": false
+  },
+  "locked_neural_composite": {
+    "definition": "UNCHANGED_V2_P50_PLUS_LOCKED_V4_ABSOLUTE_P90_POLICY",
+    "rows": 2970,
+    "minimum_date": "2026-06-20",
+    "maximum_date": "2026-09-17",
+    "policy_mode": "absolute",
+    "absolute_adjustments_kg": {
+      "days_01_07": 705.902,
+      "days_08_30": 2265.733,
+      "days_31_60": 1582.2200000000003,
+      "days_61_90": 929.895
+    },
+    "v2_p50_values_changed": false,
+    "model_retrained": false
+  },
+  "models": [
+    {
+      "model": "PHASE5_XGBOOST",
+      "joined_estate_day_rows": 260,
+      "actual_estate_day_rows": 339,
+      "join_coverage_pct": 76.69616519174042,
+      "joined_actual_total_kg": 800292.0,
+      "p50_forecast_total_kg": 707410.2904,
+      "p50_mae_kg": 720.9152076923077,
+      "p50_wape_pct": 23.42119551363752,
+      "p50_bias_pct": -11.605977518205847,
+      "p90_empirical_coverage_pct": 97.6923076923077,
+      "lag7_common_rows": 175,
+      "p50_wape_on_lag7_common_rows_pct": 20.18815361862567,
+      "lag7_naive_wape_pct": 21.060697011847786,
+      "preliminary_independent_gate": "INSUFFICIENT_EVIDENCE",
+      "operational_use_allowed": false
+    },
+    {
+      "model": "NEURAL_V2_P50_V4_P90_LOCKED_CHAMPION",
+      "joined_estate_day_rows": 260,
+      "actual_estate_day_rows": 339,
+      "join_coverage_pct": 76.69616519174042,
+      "joined_actual_total_kg": 800292.0,
+      "p50_forecast_total_kg": 596441.821,
+      "p50_mae_kg": 1070.58665,
+      "p50_wape_pct": 34.78137092461252,
+      "p50_bias_pct": -25.471975104087008,
+      "p90_empirical_coverage_pct": 96.92307692307692,
+      "lag7_common_rows": 175,
+      "p50_wape_on_lag7_common_rows_pct": 35.53790929089191,
+      "lag7_naive_wape_pct": 21.060697011847786,
+      "preliminary_independent_gate": "INSUFFICIENT_EVIDENCE",
+      "operational_use_allowed": false
+    }
+  ],
+  "decision": "PROJECT_B_PRELIMINARY_INDEPENDENT_VALIDATION_INSUFFICIENT_EVIDENCE",
+  "preliminary_champion": null,
+  "project_a_accessed": false,
+  "project_a_changed": false,
+  "training_data_changed": false,
+  "models_retrained": false,
+  "missing_estate_days_filled_with_zero": false,
+  "rl_allocation": "DISABLED",
+  "operational_use_authorized": false,
+  "next_gate": "Review independent errors by estate; extend confirmation with later complete downloaded PROMPT periods before any operational approval."
+}

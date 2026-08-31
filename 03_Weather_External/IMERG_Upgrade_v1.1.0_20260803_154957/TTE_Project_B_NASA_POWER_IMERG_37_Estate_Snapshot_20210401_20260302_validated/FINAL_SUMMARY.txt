@@ -1,0 +1,20 @@
+TTE PROJECT B NASA POWER IMERG 37-ESTATE ACQUISITION COMPLETED
+Decision: PROVISIONAL_IMERG_ACQUISITION_COMPLETED_NOT_APPROVED_FOR_TRAINING
+Period: 2021-04-01 to 2026-03-02
+Requested end: 2026-03-02
+Latest common non-fill IMERG date: 2026-03-02
+Estates: 37 (TTEL=16, KVPL=13, HPL display / HRPL system=8)
+Estate-day rows: 66,489 / 66,489
+Native IMERG cells used by estates: 8
+Maximum estate-to-grid distance: 6.419 km
+Duplicate estate-date keys: 0
+Missing IMERG values: 0
+Invalid IMERG values: 0
+Rainfall product: IMERG_PRECTOT; UTC daily; native 0.1 degree grid
+Recent data may mix IMERG Late and Final Run data
+Coordinates remain PROVISIONAL; IMERG is not an estate rain gauge
+Project A accessed: NO
+Project B retrained: NO
+RL allocation executed: NO
+Training authorized: NO
+Output: /workspace/scratch/f9e99df4556a/TTE_Project_B_NASA_POWER_IMERG_37_Estate_Snapshot_20210401_20260302_validated
